@@ -1,5 +1,11 @@
+import UsersList from "./containers/UsersList";
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <UsersList />
+    </div>
+  );
 }
 
 export default App;
