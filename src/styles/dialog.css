@@ -1,0 +1,55 @@
+/* Background styles */
+
+.dialogBackground {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
+
+/* Dialog styles */
+
+.dialogHeader {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.dialogCloseButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dialogContent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  background: #fff;
+  border-radius: 0.8rem;
+}
+
+.dialogUserName {
+  font-size: 3.2rem;
+  margin-left: 0.7rem;
+}
+
+.dialogUserEmail {
+  font-size: 1.8rem;
+}
+
+.dialogUserCompany,
+.dialogUserPhoneNumber,
+.dialogUserAddress,
+.dialogUserEmail {
+  font-size: 1.8rem;
+  margin: .8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
